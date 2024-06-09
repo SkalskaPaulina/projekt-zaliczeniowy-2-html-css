@@ -3,4 +3,4 @@
 https://github.com/SkalskaPaulina/projekt-zaliczeniowy-2-html-css
 
 
-githttps://projekt-zaliczeniowy-2-html-css.netlify.app
+https://projekt-zaliczeniowy-2-html-css.netlify.app
