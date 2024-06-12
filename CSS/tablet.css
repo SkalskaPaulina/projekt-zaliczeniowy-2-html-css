@@ -14,26 +14,25 @@
     justify-content: space-between;
   }
 
-  .nav-links a {
+  .nav-link {
     color: #f1f1f1;
   }
 
-  .landing-page-shadow .container {
+  .landing-page-shadow-container {
     height: 48%;
     display: flex;
   }
   
-
-.landing-page-text {
-    width: 577px;
-    height: 215px;
-}
+  .landing-page-text {
+      width: 577px;
+      height: 215px;
+  }
 
   .about {
     padding: 50px 0;
   }
 
-  .about h1 {
+  .about-heading-1 {
     text-align: left;
   }
 
@@ -63,7 +62,8 @@
     height: 30 auto;
     transition-duration: 1s;
   }
-  .offers h1 {
+
+  .offer-heading-1 {
     font-size: 36px;
     text-align: left;
   }
@@ -81,11 +81,12 @@
   .offers-wrapper-box:nth-last-of-type(-n + 2) {
     margin-bottom: 0;
   }
+
   footer {
     height: 71px;
   }
 
-  footer .container-flex {
+  .footer-container {
     flex-direction: row;
     justify-content: space-between;
   }

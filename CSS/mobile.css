@@ -34,7 +34,7 @@ nav a {
   display: none;
 }
 
-.nav-links a:last-child {
+.nav-link-contact {
   cursor: not-allowed;
 }
 
@@ -52,12 +52,11 @@ nav a {
   align-items: center;
 }
 
-.landing-page h1,
-.landing-page h2 {
+.heading {
   color: #ffffff;
 }
 
-.landing-page a {
+.landing-page-link {
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
@@ -72,7 +71,7 @@ nav a {
   transition-duration: 1s;
 }
 
-.container .landing-page-text {
+.landing-page-text {
   width: 577px;
   height: 265px;
   display: flex;
@@ -83,7 +82,7 @@ nav a {
   align-content: space-between;
 }
 
-.landing-page-shadow .container {
+.landing-page-shadow-container {
   height: 60%;
   display: flex;
 }
@@ -151,7 +150,7 @@ nav a {
   background-color: #405d78;
 }
 
-.offers h1 {
+.offer-heading-1 {
   font-size: 26px;
   color: #ffffff;
   margin-bottom: 50px;
@@ -198,7 +197,7 @@ nav a {
   background-color: #e07a64;
 }
 
-.offers h2 {
+.offer-heading-2 {
   font-size: 24px;
 }
 
@@ -208,7 +207,7 @@ footer {
   color: #ffffff;
 }
 
-footer .container-flex {
+.footer-container {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -220,7 +219,7 @@ footer .container-flex {
   margin-bottom: 20px;
 }
 
-.media a {
+.medium {
   color: white;
   margin-right: 18px;
 }

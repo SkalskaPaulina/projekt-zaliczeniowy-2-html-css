@@ -3,12 +3,12 @@
     width: 960px;
   }
 
-  .landing-page-shadow .container {
+  .landing-page-shadow-container {
     height: 38%;
     display: flex;
   }
 
-  .landing-page a:hover {
+  .landing-page-link:hover {
     background-color: #ffffff;
     color: #000000;
   }
