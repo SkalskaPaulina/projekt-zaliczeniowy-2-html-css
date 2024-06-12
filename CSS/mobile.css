@@ -1,6 +1,7 @@
-h1 {
+.about-heading-1 {
   font-size: 36px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .container {
@@ -15,12 +16,12 @@ h1 {
   height: 100%;
 }
 
-nav {
+.navbar {
   height: 50px;
   background-color: #4e4e4e;
 }
 
-nav a {
+.navbar .nav-link {
   font-size: 18px;
   text-decoration: none;
 }
@@ -28,6 +29,7 @@ nav a {
 .nav-logo {
   font-weight: bold;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -53,6 +55,7 @@ nav a {
 }
 
 .heading {
+  font-size: 18px;
   color: #ffffff;
 }
 
@@ -201,7 +204,7 @@ nav a {
   font-size: 24px;
 }
 
-footer {
+.footer-main {
   height: 147px;
   background-color: #4e4e4e;
   color: #ffffff;

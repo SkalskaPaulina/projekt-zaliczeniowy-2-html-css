@@ -22,10 +22,10 @@
     height: 48%;
     display: flex;
   }
-  
+
   .landing-page-text {
-      width: 577px;
-      height: 215px;
+    width: 577px;
+    height: 215px;
   }
 
   .about {
@@ -82,7 +82,7 @@
     margin-bottom: 0;
   }
 
-  footer {
+  .footer-main {
     height: 71px;
   }
 
