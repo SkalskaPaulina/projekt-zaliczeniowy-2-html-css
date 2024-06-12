@@ -1,215 +1,224 @@
 h1 {
-    font-size: 36px;
-    font-weight: bold;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .container {
-    width: 94%;
-    margin: 0 auto;
+  width: 94%;
+  margin: 0 auto;
 }
 
 .container-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 nav {
-    height: 50px;
-    background-color: #4E4E4E;
+  height: 50px;
+  background-color: #4e4e4e;
 }
 
 nav a {
-    font-size: 18px;
-    text-decoration: none;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .nav-logo {
-    font-weight: bold;
-    color: #FFFFFF;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .nav-links {
-    display: none;
+  display: none;
 }
 
 .nav-links a:last-child {
-    cursor: not-allowed;
+  cursor: not-allowed;
 }
 
 .landing-page {
-    height: calc(100vh - 50px);
-    background-image: url(/d869216e199c4faf8b78918e652e7719.jpg);
-    background-position: center;
-    background-size: cover;
+  height: calc(100vh - 50px);
+  background-image: url(/background.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .landing-page-shadow {
-    height: 100%;
-    background-color: rgba(0, 0, 0, .3);
-    display: flex;
-    align-items: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
 }
 
-.landing-page h1, .landing-page h2 {
-    color: #FFFFFF;
+.landing-page h1,
+.landing-page h2 {
+  color: #ffffff;
 }
 
 .landing-page a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    width: 164px;
-    height: 41px;
-    background-color: transparent;
-    border: 3px solid #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition-duration: 1s;
-}
-
-.landing-page-shadow .container {
-    height: 60%;
-    display: flex;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  width: 164px;
+  height: 41px;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 1s;
 }
 
 .landing-page-text {
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+  width: 85%;
+  height: calc(577px - 215px);
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.landing-page-shadow .container {
+  height: 60%;
+  display: flex;
+}
+
+.fa-brands {
+  font-size: xx-large;
 }
 
 @media (min-width: 425px) {
-    .landing-page-text {
-        width: 77%;
-    }
+  .landing-page-text {
+    width: 77%;
+  }
 }
 
 .about {
-    padding-top: 50px;
-    background-color: #F1F1F1;
+  padding-top: 50px;
+  background-color: #f1f1f1;
 }
 
 .about h1 {
-    margin-bottom: 50px;
-    color: #152D41;
-    text-align: center;
+  margin-bottom: 50px;
+  color: #152d41;
+  text-align: center;
 }
 
 .about-employee {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
 
 .about-employee-pic-woman {
-    width: 200px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 50%;
-    background-image: url(https://img.freepik.com/darmowe-zdjecie/widok-z-boku-kobiety-pozuje-na-krzesle_23-2149915943.jpg);
-    background-position: center;
-    background-size: cover;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-image: url(https://img.freepik.com/darmowe-zdjecie/widok-z-boku-kobiety-pozuje-na-krzesle_23-2149915943.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .about-employee-pic-man {
-    width: 200px;
-    height: 200px;
-    flex-shrink: 0;
-    border-radius: 50%;
-    background-image: url(https://img.freepik.com/darmowe-zdjecie/brunet-mezczyzna-w-okraglych-okularach-i-bialej-koszuli_273609-19360.jpg);
-    background-position: center;
-    background-size: cover;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-image: url(https://img.freepik.com/darmowe-zdjecie/brunet-mezczyzna-w-okraglych-okularach-i-bialej-koszuli_273609-19360.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .about-employee-desc {
-    margin: 50px 14px;
+  margin: 50px 14px;
 }
 
 .about-employee h2 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 21px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 21px;
 }
 
 .offers {
-    padding: 50px 0;
-    background-color: #405D78;
+  padding: 50px 0;
+  background-color: #405d78;
 }
 
 .offers h1 {
-    font-size: 26px;
-    color: #FFFFFF;
-    margin-bottom: 50px;
-    text-align: center;
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .offers-wrapper {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .offers-wrapper-box {
-    width: 100%;
-    padding-bottom: 100%;
-    margin-bottom: 5%;
-    position: relative;
-    background-color: #F1F1F1;
+  width: 100%;
+  padding-bottom: 100%;
+  margin-bottom: 5%;
+  position: relative;
+  background-color: #f1f1f1;
 }
 
 .offers-wrapper-box:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .offers-wrapper-box-cnt {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .offers-wrapper-box-dot {
-    position: absolute;
-    top: -11px;
-    left: -11px;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    background-color: #E07A64;
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  width: 37.65px;
+  height: 37.65px;
+  border-radius: 50%;
+  background-color: #e07a64;
 }
 
 .offers h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 footer {
-    height: 147px;
-    background-color: #4E4E4E;
-    color: #FFFFFF;
+  height: 147px;
+  background-color: #4e4e4e;
+  color: #ffffff;
 }
 
 footer .container-flex {
-    flex-direction: column;
-    justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .footer-credits {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .media a {
-    color: white;
-    margin-right: 18px;
+  color: white;
+  margin-right: 18px;
 }
