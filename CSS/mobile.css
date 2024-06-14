@@ -41,10 +41,10 @@
 }
 
 .landing-page {
-  max-width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 574px;
   height: calc(100vh - 100px);
-  background-image: url(/background.jpg);
+  background-image: url(/m_background.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -102,8 +102,11 @@
   }
 }
 
+.padd {
+  padding: 50px 0;
+}
+
 .about {
-  padding-top: 50px;
   background-color: #f1f1f1;
 }
 
@@ -148,7 +151,6 @@
 }
 
 .offers {
-  padding: 50px 0;
   background-color: #405d78;
 }
 
@@ -221,7 +223,15 @@
   margin-bottom: 20px;
 }
 
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
 .medium {
   color: white;
-  margin-right: 18px;
+  font-size: x-large;
+  text-decoration: none;
 }
