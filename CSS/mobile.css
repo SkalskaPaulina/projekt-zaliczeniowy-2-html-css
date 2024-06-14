@@ -41,7 +41,9 @@
 }
 
 .landing-page {
-  height: calc(100vh - 50px);
+  max-width: 1920px;
+  height: 1080px;
+  height: calc(100vh - 100px);
   background-image: url(/background.jpg);
   background-position: center;
   background-size: cover;
@@ -120,24 +122,19 @@
   text-align: justify;
 }
 
-.about-employee-pic-woman {
+.about-employee-pic {
   width: 200px;
   height: 200px;
   flex-shrink: 0;
   border-radius: 50%;
-  background-image: url(https://img.freepik.com/darmowe-zdjecie/widok-z-boku-kobiety-pozuje-na-krzesle_23-2149915943.jpg);
   background-position: center;
   background-size: cover;
 }
-
+.about-employee-pic-woman {
+  background-image: url(https://img.freepik.com/darmowe-zdjecie/widok-z-boku-kobiety-pozuje-na-krzesle_23-2149915943.jpg);
+}
 .about-employee-pic-man {
-  width: 200px;
-  height: 200px;
-  flex-shrink: 0;
-  border-radius: 50%;
   background-image: url(https://img.freepik.com/darmowe-zdjecie/brunet-mezczyzna-w-okraglych-okularach-i-bialej-koszuli_273609-19360.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .about-employee-desc {
